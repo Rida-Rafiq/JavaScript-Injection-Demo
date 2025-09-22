@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injection </title>
+</head>
+<body>
+    <h1>Injections in JavaScript</h1>
+     <button onclick="sayHey()">Click Me</button>
+  <br><br>
+  <button onclick="showDate()">Show Date</button>
+
+  <p id="result"></p>
+
+  <script>
+    function sayHey() {
+      alert("Have a nice day!");
+    }
+
+    function showDate() {
+      document.getElementById("result").innerHTML = new Date();
+    }
+  </script>
+</body>
+</html>
